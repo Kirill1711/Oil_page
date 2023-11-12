@@ -3,8 +3,13 @@ footer {
 }
 
 .footer {
+    height: 80px;
     display: flex;
     align-items: center;
     gap: 60px;
     justify-content: center;
+}
+.footer p {
+    font-size: 24px;
+    color: #000000;
 }
