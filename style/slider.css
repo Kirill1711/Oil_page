@@ -1,5 +1,6 @@
 .slider {
-    background-color: #fadadd;
+    background-color: #e0e0e0;
+    border-top: 1px solid black;
 }
 
 .slide__window {
