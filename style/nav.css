@@ -1,5 +1,5 @@
 .container {
-    width: 1920px;
+    max-width: 1920px;
     margin: auto;
 }
 .container__wrapper {
@@ -10,11 +10,11 @@
     margin: auto;
 }
 
-nav {
+header {
     background-color: #e0e0e0;
 }
 
-.nav {
+.header {
     height: 80px;
     width: 100%;
     display: inline-flex;
@@ -40,20 +40,20 @@ nav {
     font-size: 40px;
 }
 
-.menu ul {
+nav ul {
     display: inline-flex;
     align-items: center;
 }
-.menu a {
+nav a {
     text-decoration: none;
     font-size: 1.2rem;
     color: #000000;
     transition: all 0.25s;
 }
-.menu a:hover {
+nav a:hover {
     color: #fc0c0c;
 }
-.menu li {
+nav li {
     float: left;
     margin-right: 40px;
 }
