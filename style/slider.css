@@ -3,30 +3,32 @@
     border-top: 1px solid black;
 }
 
-.slide__window {
+.slider__window {
     overflow: hidden;
     width: 1006px;
     height: 390px;
 }
+
+.slider_line {
+    width: 3018px;
+    display: flex;
+    margin-top: -90px;
+    transition: all 0.5s;
+}
 .slide {
-    width: 1006px;
-    height: 390px;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: all 0.35s;
+    position: relative;
 }
-.one {
-    background-image: url('../img/slider/slide_one.jpg');
+.slide img {
+    padding: 0;
+    margin: 0;
 }
-.slide p {
-    text-align: justify;
-    color: #fff;
+.slide span {
     font-size: 20px;
-    padding: 40px 25px 0 25px;
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    color: #fff;
 }
-.two {
-    background-image: url('../img/slider/slide_two.jpg');
-}
-.tree {
-    background-image: url('../img/slider/slide_tree.jpg');
-}
+
+
+
